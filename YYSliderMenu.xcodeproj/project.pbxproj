@@ -15,6 +15,7 @@
 		FDCF25B01EADD8A500F3214C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDCF25AE1EADD8A500F3214C /* LaunchScreen.storyboard */; };
 		FDCF25BB1EADD8A500F3214C /* YYSliderMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCF25BA1EADD8A500F3214C /* YYSliderMenuTests.m */; };
 		FDCF25C61EADD8A500F3214C /* YYSliderMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCF25C51EADD8A500F3214C /* YYSliderMenuUITests.m */; };
+		FDCF25D61EADD8DD00F3214C /* SliderMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCF25D51EADD8DD00F3214C /* SliderMenuView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		FDCF25C11EADD8A500F3214C /* YYSliderMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYSliderMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCF25C51EADD8A500F3214C /* YYSliderMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYSliderMenuUITests.m; sourceTree = "<group>"; };
 		FDCF25C71EADD8A500F3214C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDCF25D41EADD8DD00F3214C /* SliderMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderMenuView.h; sourceTree = "<group>"; };
+		FDCF25D51EADD8DD00F3214C /* SliderMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderMenuView.m; sourceTree = "<group>"; };
+		FDCF25D71EADD9E100F3214C /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +105,12 @@
 		FDCF259F1EADD8A500F3214C /* YYSliderMenu */ = {
 			isa = PBXGroup;
 			children = (
+				FDCF25D31EADD8DD00F3214C /* SliderMenuView */,
 				FDCF25A31EADD8A500F3214C /* AppDelegate.h */,
 				FDCF25A41EADD8A500F3214C /* AppDelegate.m */,
 				FDCF25A61EADD8A500F3214C /* ViewController.h */,
 				FDCF25A71EADD8A500F3214C /* ViewController.m */,
+				FDCF25D71EADD9E100F3214C /* common.h */,
 				FDCF25A91EADD8A500F3214C /* Main.storyboard */,
 				FDCF25AC1EADD8A500F3214C /* Assets.xcassets */,
 				FDCF25AE1EADD8A500F3214C /* LaunchScreen.storyboard */,
@@ -138,6 +144,15 @@
 				FDCF25C71EADD8A500F3214C /* Info.plist */,
 			);
 			path = YYSliderMenuUITests;
+			sourceTree = "<group>";
+		};
+		FDCF25D31EADD8DD00F3214C /* SliderMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				FDCF25D41EADD8DD00F3214C /* SliderMenuView.h */,
+				FDCF25D51EADD8DD00F3214C /* SliderMenuView.m */,
+			);
+			path = SliderMenuView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +287,7 @@
 			files = (
 				FDCF25A81EADD8A500F3214C /* ViewController.m in Sources */,
 				FDCF25A51EADD8A500F3214C /* AppDelegate.m in Sources */,
+				FDCF25D61EADD8DD00F3214C /* SliderMenuView.m in Sources */,
 				FDCF25A21EADD8A500F3214C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
